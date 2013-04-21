@@ -6,6 +6,8 @@ var pShow = function () {
 		ads_link_url = ads_link.attr("href"),
 		pShow_close = ".pShow-close",
 		pShow_fade = ".pShow-fade",
+		pShow_thumbs = $(".pShow-thumbs"),
+		thumbs,
 		pShow_wrapper = $(".pShow-wrapper"),
 		pShow_wrapper_width = pShow_wrapper.width(),
 		preload,
@@ -85,6 +87,21 @@ var pShow = function () {
 		}
 		cache.push(ele);
 	};
+	thumbs = function () {
+		var length = ads_link.length;
+		var i = 1;
+		for (i; i <= length; i = i + 1) {
+			pShow_thumbs.append("<li class='pShow-thumbs-li'>" +  
+				"<table border='0' cellspacing='0' cellpadding='0'>" +
+				"<tr>" +
+				"<td>" +
+				"<img src='" + $(".ads-img a:nth-child(" + i + ")").children("img").attr("src") + "'> " +
+				"</td>" +
+				"</tr>" +
+				"</table>" +
+				"</li>");
+		}
+	}
 	/* /functions */
 	$(window).resize(function() {
 		pShow_img.css({
@@ -106,6 +123,7 @@ var pShow = function () {
 		if ($(this).index() === pShow_img_length - 1) {
 			lastChk = true;
 		}
+		thumbs()
 		changeImg(ads_link_url, true, true, firstChk, lastChk);
 		/* /load template */
 		return false;

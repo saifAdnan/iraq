@@ -80,6 +80,7 @@
 						<!-- /pagination -->
 						<img src="" alt="" class="pShow-img">
 						<h1 class='pShow-h1'></h1>
+						<ul class="pShow-thumbs"></ul>
 					</div>
 					<!-- /image -->
 				</div>

@@ -117,3 +117,38 @@
 .pShow-pagination-prev:hover {
 	background-position: 0 -73px;
 }
+
+.pShow-thumbs {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
+.pShow-thumbs table {
+	width: 80px;
+	height: 80px;
+	background: #fff;
+}
+.pShow-thumbs td {
+	vertical-align: middle;
+	text-align: center;
+}
+.pShow-thumbs-li {
+	height: 80px;
+	width: 80px;
+	margin: 4px;
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 4px;
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px#888;
+	box-shadow: 0 0 5px 5px #888;
+	transform: rotate(40deg);
+}
+
+.pShow-thumbs-li img {
+	max-height: 100%;
+	max-width: 100%;
+}
