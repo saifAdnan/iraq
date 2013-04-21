@@ -60,6 +60,7 @@ var pShow = function () {
 		if(firstChk === true) {
 			pShow_pagination_prev.hide();
 		}
+		$(".pShow-loader").show();
 		preload([preload_gif]).done(function (image) {
 			pShow_img.attr("src", image[0].src).css({
 				marginTop: -pShow_img.height() / 2,
@@ -67,7 +68,6 @@ var pShow = function () {
 				display: "block"
 			});
 		});
-		$(".pShow-loader").show();
 		preload([ele]).done(function (image) {
 			pShow_img.attr("src", image[0].src).css({
 				marginTop: -pShow_img.height() / 2,
@@ -78,6 +78,13 @@ var pShow = function () {
 	};
 	/* /functions */
 
+	$(window).resize(function() {
+		pShow_img.css({
+			marginTop: -pShow_img.height() / 2,
+			marginLeft: -pShow_img.width() / 2,
+			display: "block"
+		});
+	}).resize();
 	/* click on thumb */
 	ads_link.on("click", function() {
 		var firstChk = false,
