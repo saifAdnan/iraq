@@ -9,7 +9,8 @@
 	$table_sub_cat = "sub_categories";
 	$table_ads = "ads";
 	$table_ads_img = "ads_img";
-
+	$saif = "saif";
+	
 	require_once("classes/mysql.php");
 	require_once("classes/categories.php");
 	require_once("classes/ads.php");
