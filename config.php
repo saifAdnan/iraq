@@ -3,7 +3,6 @@
 	$db_user = "root";
 	$db_pass = "0000";
 	$db_name = "iraq";
-	$saif = "saif";
 
 	/* tables */
 	$table_cat = "categories";
