@@ -2,7 +2,7 @@
 	$db_host = "localhost";
 	$db_user = "root";
 	$db_pass = "0000";
-	$db_name = "iraq";
+	$db_name = "iraqs";
 
 	/* tables */
 	$table_cat = "categories";
