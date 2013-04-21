@@ -1,25 +1,3 @@
-if (!Array.prototype.indexOf)
-{
-  Array.prototype.indexOf = function(elt /*, from*/)
-  {
-    var len = this.length >>> 0;
-
-    var from = Number(arguments[1]) || 0;
-    from = (from < 0)
-         ? Math.ceil(from)
-         : Math.floor(from);
-    if (from < 0)
-      from += len;
-
-    for (; from < len; from++)
-    {
-      if (from in this &&
-          this[from] === elt)
-        return from;
-    }
-    return -1;
-  };
-}
 /*jslint browser: true*/
 /*global window,$, jQuery*/
 var pShow = function () {
@@ -81,7 +59,6 @@ var pShow = function () {
 			pShow_pagination_prev.hide();
 		}
 		$(".pShow-loader").show();
-
 		if (cache.indexOf(ele) > -1) {
 			pShow_img.loadImage(ele, function () {
 				pShow_img.css({
@@ -106,13 +83,9 @@ var pShow = function () {
 				});
 			});
 		}
-
 		cache.push(ele);
-
-		console.log(cache);
 	};
 	/* /functions */
-
 	$(window).resize(function() {
 		pShow_img.css({
 			marginTop: -pShow_img.height() / 2,
@@ -138,7 +111,6 @@ var pShow = function () {
 		return false;
 	});
 	/* /click on thumb */
-
 	/* next image */
 	pShow_pagination_next.on("click", function () {
 		var img = pShow_img.attr("data-src");
@@ -150,7 +122,6 @@ var pShow = function () {
 		changeImg(imgSrc, check, next);
 	});
 	/* /next image */
-
 	/* prev image */
 	pShow_pagination_prev.on("click", function () {
 		var img = pShow_img.attr("data-src");
@@ -162,13 +133,11 @@ var pShow = function () {
 		changeImg(imgSrc, check, next);
 	});
 	/* /prev image */
-	
 	/* click on close button */
 	$(document).on("click", pShow_close, function () {
 		$(".pShow-loader").fadeOut();
 	});
 	/* /click on close button */
-	
 	/* click on fade */
 	$(document).on("click", pShow_fade, function () {
 		$(".pShow-loader").fadeOut();
