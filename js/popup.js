@@ -112,7 +112,8 @@ var pShow = function () {
 			ImgSrc = aImg.next().attr("href"),
 			check = aImg.next().next().attr("href"),
 			next = true;
-			changeImg(ImgSrc, check, next);
+		$(".pShow-h1").html('').html(ImgSrc);
+		changeImg(ImgSrc, check, next);
 	});
 	/* /next image */
 
@@ -124,6 +125,7 @@ var pShow = function () {
 			ImgSrc = aImg.prev().attr("href"),
 			check = aImg.prev().prev().attr("href"),
 			next = false;
+		$(".pShow-h1").html('').html(ImgSrc);
 		changeImg(ImgSrc, check, next);
 	});
 	/* /prev image */

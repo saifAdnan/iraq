@@ -77,6 +77,7 @@
 						</div>
 						<!-- /pagination -->
 						<img src="" alt="" class="pShow-img">
+						<h1 class='pShow-h1'></h1>
 					</div>
 					<!-- /image -->
 				</div>
