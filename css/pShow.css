@@ -1,0 +1,119 @@
+.pShow-loader {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.pShow-close {
+	background: url("../images/sprite.png") no-repeat scroll -64px 0 transparent;
+	cursor: pointer;
+	position: absolute;
+	right: -17px;
+	top: -17px;
+	z-index: 1;
+	width: 26px;
+	height: 27px;
+	text-align: center;
+}
+.pShow-close:hover {
+	opacity: 0.7;
+}
+.pShow-fade {
+	background: rgba(0,0,0, 0.7);
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.pShow-wrapper {
+	position: absolute;
+	z-index: 1;
+	background: #fff;
+	left: 10%;
+	right: 10%;
+	top: 10%;
+	bottom: 10%;
+	min-width: 500px;
+	min-height: 400px;
+	max-width: 960px;
+	max-height: 786px;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	background: none repeat scroll 0 0 #F9F9F9;
+	border-radius: 4px 4px 4px 4px;
+	color: #444444;
+	text-shadow: none;
+}
+
+.pShow-img_container {
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	  -moz-user-select: none;     /* Firefox all */
+	  -ms-user-select: none;      /* IE 10+ */
+	  /* No support for these yet, use at own risk */
+	  -o-user-select: none;
+	  user-select: none;
+}
+
+.pShow-img {
+	max-width: 99%;
+	max-height: 99%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.pShow-preload {
+	background: url("../images/loading.gif") no-repeat scroll 0 0 transparent;
+	height: 24px;
+	width: 160px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -12px;
+	margin-left: -80px;
+}
+
+.pShow-pagination {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.pShow-pagination-next,
+.pShow-pagination-prev {
+	background: url("../images/sprite.png") no-repeat;
+	height: 63px;
+	width: 22px;
+	cursor: pointer;
+	top: 50%;
+	position: absolute;
+	margin-top: -32px;
+	z-index: 1;
+}
+
+.pShow-pagination-next {
+	background-position: -32px 0;
+	right: 0;
+}
+
+.pShow-pagination-next:hover {
+	background-position: -32px -73px;
+}
+
+.pShow-pagination-prev {
+	left: 0;
+	background-position: 0 0;
+}
+
+.pShow-pagination-prev:hover {
+	background-position: 0 -73px;
+}
