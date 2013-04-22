@@ -133,7 +133,9 @@ var pShow = function () {
 		if ($(this).index() === pShow_img_length - 1) {
 			lastChk = true;
 		}
-		thumbs();
+		if (pShow_thumbs.children("li").length === 0) {
+			thumbs();
+		}
 		changeImg(ads_link_url, true, true, firstChk, lastChk);
 		$("#pShow-thumbs_container").tinyscrollbar({size: $("#pShow-thumbs_container").height()});
 
