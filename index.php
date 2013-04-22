@@ -90,18 +90,6 @@
 						<div class="viewport">
 							<div class="overview">
 								<ul class="pShow-thumbs">
-									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
-									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
-									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
-									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
-									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
-									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
-									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
-									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
-									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
-									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
-									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
-
 								</ul>
 							</div>
 						</div>
