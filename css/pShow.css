@@ -41,8 +41,8 @@
 	bottom: 10%;
 	min-width: 500px;
 	min-height: 400px;
-	max-width: 960px;
-	max-height: 786px;
+	/* max-width: 960px;
+	max-height: 786px; */
 	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 	background: none repeat scroll 0 0 #F9F9F9;
 	border-radius: 4px 4px 4px 4px;
@@ -149,6 +149,6 @@
 }
 
 .pShow-thumbs-li img {
-	max-height: 100%;
-	max-width: 100%;
+	height: 100%;
+	width: 100%;
 }
