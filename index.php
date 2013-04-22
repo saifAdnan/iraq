@@ -19,6 +19,7 @@
 		<link rel="stylesheet" type="text/css" href="css/ie.css" />
 		<![endif]-->
  		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ 		<script type="text/javascript" src="js/jquery.tinyscrollbar.min.js"></script>
  		<script type="text/javascript" src="js/main.js"></script>
  		<script type="text/javascript" src="js/preload.js"></script>
  		<script type="text/javascript" src="js/popup.js"></script>
@@ -80,9 +81,31 @@
 						<!-- /pagination -->
 						<img src="" alt="" class="pShow-img">
 						<h1 class='pShow-h1'></h1>
-						<ul class="pShow-thumbs"></ul>
+
 					</div>
 					<!-- /image -->
+
+					<div id="pShow-thumbs_container">
+				        <div class="scrollbar" style="height: 200px;"><div class="track" style="height: 200px;"><div class="thumb" style="top: 0px; height: 39.3701px;"><div class="end"></div></div></div></div>
+						<div class="viewport">
+							<div class="overview">
+								<ul class="pShow-thumbs">
+									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
+									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
+									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
+									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
+									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
+									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
+									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
+									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
+									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
+									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
+									<li class="pShow-thumbs-li" style="transform: rotate(-17deg);"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img src="upload/thumbs/canon1.jpg"> </td></tr></tbody></table></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
