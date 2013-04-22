@@ -31,8 +31,8 @@
 				if (count($thumb) > 0) {
 					echo "<div class='ads-img'>";
 					foreach ($thumb as $key) {
-						echo "<a href='/".$key['url']."'>".
-							"<img src='/".$key['thumb']."'>".
+						echo "<a href='".$key['url']."'>".
+							"<img src='".$key['thumb']."'>".
 							"</a>";
 					}
 					echo "</div>";

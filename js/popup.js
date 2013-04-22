@@ -100,6 +100,15 @@ var pShow = function () {
 				"</tr>" +
 				"</table>" +
 				"</li>");
+        	var angle = Math.floor(Math.random() * 41) - 20;
+	        $(".pShow-thumbs-li").each(function() {
+		        $(this).css({
+		            '-moz-transform'    : 'rotate(' + angle + 'deg)',
+		            '-webkit-transform' : 'rotate(' + angle + 'deg)',
+		            'transform'         : 'rotate(' + angle + 'deg)'
+		        });
+	        });
+	        
 		}
 	}
 	/* /functions */
@@ -109,6 +118,7 @@ var pShow = function () {
 			marginLeft: -pShow_img.width() / 2,
 			display: "block"
 		});
+		$("#pShow-thumbs_container").tinyscrollbar({size: $("#pShow-thumbs_container").height()});
 	}).resize();
 	/* click on thumb */
 	ads_link.on("click", function() {
@@ -123,8 +133,12 @@ var pShow = function () {
 		if ($(this).index() === pShow_img_length - 1) {
 			lastChk = true;
 		}
-		thumbs()
+		if (pShow_thumbs.children("li").length === 0) {
+			thumbs();
+		}
 		changeImg(ads_link_url, true, true, firstChk, lastChk);
+		$("#pShow-thumbs_container").tinyscrollbar({size: $("#pShow-thumbs_container").height()});
+
 		/* /load template */
 		return false;
 	});
