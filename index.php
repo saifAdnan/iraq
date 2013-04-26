@@ -24,7 +24,7 @@
  		<script type="text/javascript" src="js/preload.js"></script>
  		<script type="text/javascript" src="js/popup.js"></script>
 	</head>
-	<body>a
+	<body>
 		<div class="wrapper">
 			<div class="container">
 				<div class="header">
