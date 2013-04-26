@@ -48,6 +48,7 @@ var pShow = function () {
 			}
 		}
 	};
+
 	changeImg = function (ele, next, firstChk, lastChk) {
 		pShow_pagination_next.show();
 		pShow_pagination_prev.show();
@@ -62,6 +63,7 @@ var pShow = function () {
 					marginLeft: -pShow_img.width() / 2
 				}).attr("data-index", ele.index).fadeIn();
 			});
+			$(".pShow-h1").html(ele.index);
 		} else {
 			pShow_img.loadImage(preload_gif, function () {
 				pShow_img.css({
@@ -76,19 +78,21 @@ var pShow = function () {
 						marginLeft: -pShow_img.width() / 2
 					}).attr("data-index", ele.index).fadeIn();
 				});
+				$(".pShow-h1").html(ele.index);
 			});
 		}
 		cache.push(ele.index);
 	};
 	thumbs = function () {
-		var length = ads_link.length;
-		var i = 1;
-		for (i; i <= length; i = i + 1) {
+		var length = pShow_img_length;
+		var i = 0;
+		console.log(imgArray, length);
+		for (i; i <= length - 1; i = i + 1) {
 			pShow_thumbs.append("<li class='pShow-thumbs-li'>" +  
 				"<table border='0' cellspacing='0' cellpadding='0'>" +
 				"<tr>" +
 				"<td>" +
-				"<img src='" + $(".ads-img a:nth-child(" + i + ")").children("img").attr("src") + "'> " +
+				"<img src='" + imgArray[i].thumb + "'> " +
 				"</td>" +
 				"</tr>" +
 				"</table>" +
@@ -123,6 +127,7 @@ var pShow = function () {
 			var img = {};
 			img.index = $(this).parent().children("a").eq(i).index();
 			img.url =  $(this).parent().children("a").eq(i).attr("href");
+			img.thumb = $(this).parent().children("a").eq(i).children("img").attr("src");
 			imgArray.push(img);
 		}
 		/* /push to array */
@@ -133,6 +138,7 @@ var pShow = function () {
 		changeImg(imgArray[this_index], true, firstChk, lastChk);
 		/* /load template */
 
+		thumbs();
 		/* scroll */
 		$("#pShow-thumbs_container").tinyscrollbar({size: $("#pShow-thumbs_container").height()});
 		/* /scroll */

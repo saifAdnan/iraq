@@ -23,7 +23,7 @@
  		<script type="text/javascript" src="js/main.js"></script>
  		<script type="text/javascript" src="js/preload.js"></script>
  		<script type="text/javascript" src="js/popup.js"></script>
-	</head>
+	</head>	
 	<body>
 		<div class="wrapper">
 			<div class="container">
