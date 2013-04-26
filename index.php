@@ -25,9 +25,6 @@
  		<script type="text/javascript" src="js/popup.js"></script>
 	</head>
 	<body>
-		<div id="asd">
-		  
-		</div>
 		<div class="wrapper">
 			<div class="container">
 				<div class="header">
