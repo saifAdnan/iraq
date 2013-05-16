@@ -14,4 +14,8 @@
 	require_once("classes/categories.php");
 	require_once("classes/ads.php");
 	$db = new edb($db_host, $db_user, $db_pass, $db_name);
+	
+	/*
+	 * end of commit
+	 */
 ?>
