@@ -1,0 +1,212 @@
+
+html, body, div, img, p, span, h2 {
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+}
+body {
+    font-family: Tahoma,Arial,sans-serif;
+}
+.wrapper {
+    background: url("../images/sprite.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #CFCFCF;
+    height: 386px;
+    margin: 50px auto 0;
+    position: relative;
+    width: 931px;
+}
+.wrapper-borders {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.wrapper-borders-bg {
+    background: url("../images/sprite.png") no-repeat scroll 0 0 transparent;
+    height: 8px;
+    overflow: hidden;
+    position: absolute;
+    width: 8px;
+}
+.wrapper-borders-top-left {
+    background-position: -43px -421px;
+    left: -1px;
+    top: -1px;
+}
+.wrapper-borders-top-right {
+    background-position: -61px -421px;
+    right: -1px;
+    top: -1px;
+}
+.wrapper-borders-bottom-left {
+    background-position: -43px -439px;
+    bottom: -1px;
+    left: -1px;
+}
+.wrapper-borders-bottom-right {
+    background-position: -61px -439px;
+    bottom: -1px;
+    right: -1px;
+}
+.wrapper-top {
+    float: left;
+    height: 269px;
+    margin-left: 29px;
+    margin-top: 25px;
+    position: relative;
+}
+.wrapper-top-left {
+    float: left;
+    width: 453px;
+}
+.wrapper-top-left-h {
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+.wrapper-top-left p {
+    font: 15px/20px Tahoma,Arial,sans-serif;
+    margin-bottom: 26px;
+    width: 370px;
+}
+.wrapper-top-left .p-hint {
+    color: #898989;
+    font-size: 10px;
+}
+.p-hint-icon {
+    background: url("../images/sprite.png") no-repeat scroll -43px -396px transparent;
+    float: left;
+    height: 15px;
+    margin-right: 9px;
+    width: 14px;
+}
+.wrapper-top-right {
+    background-color: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    float: left;
+    position: relative;
+    width: 420px;
+}
+.wrapper-bottom {
+    float: left;
+    left: 29px;
+    position: relative;
+    width: 100%;
+}
+.wrapper-top-right-borders {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.wrapper-top-right-borders-bg {
+    background: url("../images/sprite.png") no-repeat scroll 0 0 transparent;
+    height: 6px;
+    overflow: hidden;
+    position: absolute;
+    width: 6px;
+}
+.wrapper-top-right-borders-top-left {
+    background-position: -79px -421px;
+    left: -1px;
+    top: -1px;
+}
+.wrapper-top-right-borders-top-right {
+    background-position: -95px -421px;
+    right: -1px;
+    top: -1px;
+}
+.wrapper-top-right-borders-bottom-left {
+    background-position: -79px -437px;
+    bottom: -1px;
+    left: -1px;
+}
+.wrapper-top-right-borders-bottom-right {
+    background-position: -95px -437px;
+    bottom: -1px;
+    right: -1px;
+}
+.partners {
+    position: relative;
+}
+.partners-section {
+    border-bottom: 1px dotted #E3E3E3;
+    float: left;
+    height: 75px;
+}
+.partners-section-height {
+    height: 83px;
+}
+.partners-section.partners-section-last {
+    border-bottom: 0 none;
+}
+.partners-section-img-container {
+    float: left;
+    height: 40px;
+    text-align: center;
+    width: 217px;
+}
+.partners-section-img {
+    background: url("../images/sprite.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+}
+.partners-section-img-bmibaby {
+    background-position: 0 -622px;
+    height: 35px;
+    margin-top: 24px;
+    width: 148px;
+}
+.partners-section-img-primelocation {
+    background-position: 0 -539px;
+    height: 60px;
+    margin-top: 12px;
+    width: 60px;
+}
+.partners-section-img-easy_roommate {
+    background-position: 0 -486px;
+    height: 26px;
+    margin-top: 24px;
+    width: 148px;
+}
+.partners-text {
+    float: left;
+    font-size: 14px;
+    margin-top: 30px;
+    width: 200px;
+}
+.partners-text-long {
+    float: left;
+    font-size: 14px;
+    margin-top: 15px;
+    width: 200px;
+}
+.wrapper-bottom-info-container {
+    background-color: #A4A4A4;
+    color: #E8E8E8;
+    float: left;
+    font-size: 13px;
+    height: 52px;
+    padding-left: 17px;
+    padding-top: 11px;
+    width: 377px;
+}
+.wrapper-bottom-info-arrow {
+    background: url("../images/sprite.png") no-repeat scroll 0 -396px transparent;
+    float: left;
+    height: 63px;
+    width: 33px;
+}
+.wrapper-bottom-btn {
+    background: url("../images/sprite.png") no-repeat scroll 0 -662px transparent;
+    cursor: pointer;
+    float: left;
+    height: 64px;
+    margin-left: 26px;
+    width: 421px;
+}
+.wrapper-bottom-btn:hover {
+    background-position: 0 -726px;
+}

@@ -1,0 +1,13 @@
+/* IE6 */
+.wrapper-borders-top-right,
+.wrapper-borders-bottom-right {
+	_right:-2px;
+}
+
+.wrapper-top-right-borders {
+	_height: 235px;
+}
+
+.wrapper-top {
+	_margin-left: 14px;
+}
