@@ -4,7 +4,7 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <html xmlns="http://www.w3.org/1999/html">
 	<head>
-		<title>Title</title>
+		<title>Title1</title>
 		<meta charset="UTF-8">
 
 		<!-- CSS -->
